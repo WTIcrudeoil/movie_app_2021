@@ -1,17 +1,20 @@
 import PropTypes from "prop-types";
 import React from "react";
+import axios from "axios";
 
 class App extends React.Component{
   state = {
     isLoading:true,
     movies:[]
   };
+  getMovies = async() =>{
+    const movies = await axios.get("https://yts-proxy.nomadcoders1.now.sh/list_movies.json")
+    // axios.get속도 느릴수 있음 우리는  js에게 기다려 달라고 해야함
+  };
   componentDidMount(){
-    setTimeout(()=>{
-      this.setState({isLoading:false})
-    },6000);
+    this.getMovies();
   }
-  //state에 Default로 먼저 선언하지 않아도 됨 , setState안에서 새로운 state정의해도 무관함.
+  
 
   render(){
     const {isLoading} = this.state
