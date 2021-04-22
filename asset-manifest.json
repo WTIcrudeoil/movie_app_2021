@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/WTIcrudeoil/movie_app_2021/static/css/main.28af63d4.chunk.css",
+    "main.js": "/WTIcrudeoil/movie_app_2021/static/js/main.4bc915bc.chunk.js",
+    "main.js.map": "/WTIcrudeoil/movie_app_2021/static/js/main.4bc915bc.chunk.js.map",
+    "runtime-main.js": "/WTIcrudeoil/movie_app_2021/static/js/runtime-main.79d145e7.js",
+    "runtime-main.js.map": "/WTIcrudeoil/movie_app_2021/static/js/runtime-main.79d145e7.js.map",
+    "static/js/2.d1ebf8aa.chunk.js": "/WTIcrudeoil/movie_app_2021/static/js/2.d1ebf8aa.chunk.js",
+    "static/js/2.d1ebf8aa.chunk.js.map": "/WTIcrudeoil/movie_app_2021/static/js/2.d1ebf8aa.chunk.js.map",
+    "index.html": "/WTIcrudeoil/movie_app_2021/index.html",
+    "static/css/main.28af63d4.chunk.css.map": "/WTIcrudeoil/movie_app_2021/static/css/main.28af63d4.chunk.css.map",
+    "static/js/2.d1ebf8aa.chunk.js.LICENSE.txt": "/WTIcrudeoil/movie_app_2021/static/js/2.d1ebf8aa.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.79d145e7.js",
+    "static/js/2.d1ebf8aa.chunk.js",
+    "static/css/main.28af63d4.chunk.css",
+    "static/js/main.4bc915bc.chunk.js"
+  ]
+}
